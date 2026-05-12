@@ -2,20 +2,20 @@
 // It is loaded as a plain script so it can be hosted anywhere.
 
 window.PROFILE = {
-  name: "孙显乔 (Joe Sun)",
-  headline: "BI Manager / AI & Process Intelligence Specialist",
+  name: "孙显乔 (Joe)",
+  headline: "AI & Process Intelligence · BI Manager",
   location: "中国",
-  openTo: "Open to: BI Leadership / Process Intelligence / AI Transformation",
+  openTo: "Open to: 流程智能 / BI 负责人 / AI 业务落地",
   email: "xianqiaosun@gmail.com",
   resumeUrl: "https://www.linkedin.com/in/joe-sun-3406371a3/",
 
   about:
-    "我专注于 BI 平台建设、流程智能优化与跨部门项目交付，具备从 0 到 1 搭建团队与方法论的经验。长期服务于汽车与制造行业国际客户，擅长把流程挖掘、数据分析与 AI 能力结合，推动业务可量化的效率提升与风险控制。",
+    "我专注于流程智能、BI 平台与跨部门项目交付：从流程挖掘与建模、指标体系到 To-Be 流程与合规控制落地，并推动 AI 在真实业务场景中的工程化应用。具备从 0 到 1 组建团队与沉淀交付方法论的经验，长期服务汽车等行业国际客户。",
 
   highlights: [
-    "主导采购、销售等关键流程的流程挖掘与 To-Be 标准流程落地",
-    "从 0 到 1 组建并管理 8 人 BI 团队，建立可复制的标准交付体系",
-    "BMW 项目获 Capgemini 2023 年度最佳交付团队奖",
+    "流程智能负责人：采购/销售流程挖掘、To-Be 与 RACI/合规机制，闭环「识别‑分析‑整改‑验证」",
+    "AI 落地：流程智能化工作流、意图识别合规校验、Dify / n8n 业务 Agent，与业务联合验证",
+    "BI Lead：0→1 管理 8 人团队；BMW CCR 等项目获 Capgemini 2023 年度最佳交付团队奖",
   ],
 
   quickLinks: [
@@ -31,11 +31,10 @@ window.PROFILE = {
       location: "中国",
       period: "2024.11 — 至今",
       bullets: [
-        "端到端主导采购、销售等关键流程的流程挖掘与优化，覆盖 Use Case 定义、流程建模、洞察输出与改进落地",
-        "牵头业务、业务 IT、组织战略与流程管理多方协作，制定 To-Be 标准流程与关键控制点并推动执行",
-        "推动流程挖掘与 AI 结合，落地流程自动化、规则/合规校验与业务 Agent 工作流，并定期向管理层汇报",
+        "作为流程智能负责人，主导采购、销售等部门流程挖掘与优化；牵头跨部门完成流程建模、数据分析及 Use Case 定义，设计并落地 To-Be 流程与关键控制机制（审批/合规/RACI），建立「识别‑分析‑整改‑验证」闭环，提升运营效率、透明度与风险管控，并定期向管理层汇报成果与建议",
+        "将流程挖掘与 AI 结合，推动流程智能化工作流、基于意图识别的合规校验，以及结合 Dify、n8n 的业务 Agent 等场景落地，并与业务负责人联合完成有效性验证",
       ],
-      tags: ["Process Mining", "AI Workflow", "Process Governance", "Cross-functional Leadership"],
+      tags: ["Process Mining", "Dify", "n8n", "AI Agent", "Process Governance"],
     },
     {
       role: "Business Intelligence Manager",
@@ -77,7 +76,7 @@ window.PROFILE = {
   projects: [
     {
       name: "BBA CCR CN 质量分析平台",
-      desc: "构建整车质量与用户反馈数据监控体系，落地 90+ 图表与指标，并建立 Self-Service 报表平台。",
+      desc: "搭建整车质量与用户反馈监控体系，Power BI / E-chart 落地 90+ 图表与指标；建设 Self-Service 独立报告平台，敏捷带领 BI 团队交付。上线后整合业务节点、缩短流程；一年后调研 5 万+ 用户，CCR 年均从 7% 降至 3%，方法论已推广至质量部门其他项目；二期/三期 BI 分别承接约 17% / 42% 用户需求。获 Capgemini 2023 年度最佳交付团队奖。",
       links: [
         { label: "Company", url: "https://www.capgemini.com/" },
       ],
@@ -85,7 +84,7 @@ window.PROFILE = {
     },
     {
       name: "Shimano 员工培训 E-Learning BI 平台",
-      desc: "负责 BI 平台从需求分析到设计开发交付全流程，交付 6 页核心报表，支持学习行为分析与管理决策。",
+      desc: "持续与业务沟通挖掘需求并优化体验；负责 BI 平台整体设计开发、数据模型与可视化，交付 6 页报表，支撑培训与管理团队洞察学习行为与趋势，获客户表扬信。",
       links: [{ label: "Company", url: "https://www.avepoint.com/" }],
       tags: ["BI Platform", "Learning Analytics", "Dashboard Design"],
     },
@@ -107,7 +106,13 @@ window.PROFILE = {
     "Microsoft Project",
     "Project Management",
     "Process Mining",
+    "Dify",
+    "n8n",
     "AI Workflow",
+    "IELTS 6.5",
+    "Microsoft 数据分析师认证",
+    "FCA-FineReport / FCA-FineBI",
+    "凯捷 架构师一级 · Connected Manager",
   ],
 
   education: [
