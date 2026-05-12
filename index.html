@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人主页 | LinkedIn 风格</title>
+    <meta name="description" content="LinkedIn 风格个人主页模板：简历、项目、技能、联系方式。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <div class="brand">
+          <div class="brand__logo" aria-hidden="true">in</div>
+          <div class="brand__text">My Profile</div>
+        </div>
+
+        <div class="search" role="search">
+          <span class="search__icon" aria-hidden="true">⌕</span>
+          <input id="search" class="search__input" type="search" placeholder="搜索（过滤经历/项目/技能）" />
+        </div>
+
+        <nav class="nav" aria-label="站点导航">
+          <a class="nav__item" href="#about">关于</a>
+          <a class="nav__item" href="#experience">经历</a>
+          <a class="nav__item" href="#projects">项目</a>
+          <a class="nav__item" href="#skills">技能</a>
+          <a class="nav__item" href="#contact">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page">
+      <div class="container grid">
+        <aside class="col col--left" aria-label="侧边栏">
+          <section class="card profile" id="profile-card">
+            <div class="profile__cover" aria-hidden="true"></div>
+            <div class="profile__body">
+              <div class="profile__avatar" id="avatar" aria-hidden="true"></div>
+              <div class="profile__meta">
+                <h1 class="profile__name" id="name">你的名字</h1>
+                <div class="profile__headline" id="headline">你的标题 / 岗位</div>
+                <div class="profile__sub">
+                  <span id="location">城市 · 国家</span>
+                  <span class="dot" aria-hidden="true">·</span>
+                  <a id="emailLink" href="#contact">可联系</a>
+                </div>
+                <div class="profile__cta">
+                  <a class="btn btn--primary" id="primaryCta" href="#contact">联系我</a>
+                  <a class="btn btn--ghost" id="resumeCta" href="#" target="_blank" rel="noreferrer">查看简历</a>
+                </div>
+                <div class="profile__stats" aria-label="概要信息">
+                  <div class="stat">
+                    <div class="stat__label">经验</div>
+                    <div class="stat__value" id="expYears">-</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat__label">项目</div>
+                    <div class="stat__value" id="projCount">-</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat__label">技能</div>
+                    <div class="stat__value" id="skillCount">-</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="card quick">
+            <h2 class="card__title">快速链接</h2>
+            <div class="quick__list" id="quickLinks"></div>
+          </section>
+        </aside>
+
+        <section class="col col--main" aria-label="主要内容">
+          <section class="card section" id="about">
+            <div class="section__header">
+              <h2 class="card__title">关于我</h2>
+              <span class="pill" id="openTo">Open to work</span>
+            </div>
+            <p class="prose" id="aboutText"></p>
+          </section>
+
+          <section class="card section" id="experience">
+            <div class="section__header">
+              <h2 class="card__title">经历</h2>
+              <div class="section__hint" id="expHint"></div>
+            </div>
+            <div class="timeline" id="experienceList"></div>
+          </section>
+
+          <section class="card section" id="projects">
+            <div class="section__header">
+              <h2 class="card__title">项目</h2>
+              <div class="section__hint">可放作品集 / GitHub / Demo</div>
+            </div>
+            <div class="cards" id="projectList"></div>
+          </section>
+
+          <section class="card section" id="skills">
+            <div class="section__header">
+              <h2 class="card__title">技能</h2>
+              <div class="section__hint">支持搜索过滤</div>
+            </div>
+            <div class="chips" id="skillChips"></div>
+          </section>
+
+          <section class="card section" id="education">
+            <div class="section__header">
+              <h2 class="card__title">教育</h2>
+            </div>
+            <div class="timeline" id="educationList"></div>
+          </section>
+        </section>
+
+        <aside class="col col--right" aria-label="补充信息">
+          <section class="card section" id="highlights">
+            <div class="section__header">
+              <h2 class="card__title">亮点</h2>
+              <div class="section__hint">一句话展示优势</div>
+            </div>
+            <ul class="bullets" id="highlightList"></ul>
+          </section>
+
+          <section class="card section" id="contact">
+            <div class="section__header">
+              <h2 class="card__title">联系方式</h2>
+              <div class="section__hint">可直接放投递入口</div>
+            </div>
+            <div class="contact" id="contactList"></div>
+            <div class="divider"></div>
+            <div class="small">
+              提示：此模板是静态页，不会自动发送邮件。你可以把按钮改为 `mailto:`，或后续我帮你接表单后端。
+            </div>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="small" id="footerText"></div>
+        <a class="small link" href="#profile-card">回到顶部</a>
+      </div>
+    </footer>
+
+    <script src="./data/profile.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
