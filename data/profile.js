@@ -5,17 +5,17 @@ window.PROFILE = {
   name: "孙显乔 (Joe)",
   headline: "AI & Process Intelligence · BI Manager",
   location: "中国",
-  openTo: "Open to: 流程智能 / BI 负责人 / AI 业务落地",
+  openTo: "Open to: 流程智能负责人 / BI 管理岗 / AI 场景落地",
   email: "xianqiaosun@gmail.com",
   resumeUrl: "https://www.linkedin.com/in/joe-sun-3406371a3/",
 
   about:
-    "我专注于流程智能、BI 平台与跨部门项目交付：从流程挖掘与建模、指标体系到 To-Be 流程与合规控制落地，并推动 AI 在真实业务场景中的工程化应用。具备从 0 到 1 组建团队与沉淀交付方法论的经验，长期服务汽车等行业国际客户。",
+    "我专注于流程智能与 BI 管理，具备从流程挖掘、To-Be 设计、合规治理到 AI 场景落地的端到端实战经验。先后负责 BMW Brilliance 与多家国际客户项目，覆盖交付管理、跨部门协同、团队搭建与方法论沉淀，持续推动数据驱动决策与运营效率提升。",
 
   highlights: [
-    "流程智能负责人：采购/销售流程挖掘、To-Be 与 RACI/合规机制，闭环「识别‑分析‑整改‑验证」",
-    "AI 落地：流程智能化工作流、意图识别合规校验、Dify / n8n 业务 Agent，与业务联合验证",
-    "BI Lead：0→1 管理 8 人团队；BMW CCR 等项目获 Capgemini 2023 年度最佳交付团队奖",
+    "流程智能负责人：主导采购流程挖掘与优化，建立「识别‑分析‑整改‑验证」闭环并推进标准升级",
+    "AI 业务落地：将规则引擎、自动解析与 Dify / n8n Agent 融入流程场景，提升效率与风险识别能力",
+    "BI 管理与交付：从 0 到 1 组建 8 人团队，负责多家国际客户项目并获 Capgemini 2023 年度最佳交付团队奖",
   ],
 
   quickLinks: [
@@ -75,18 +75,18 @@ window.PROFILE = {
 
   projects: [
     {
-      name: "BBA CCR CN 质量分析平台",
-      desc: "搭建整车质量与用户反馈监控体系，Power BI / E-chart 落地 90+ 图表与指标；建设 Self-Service 独立报告平台，敏捷带领 BI 团队交付。上线后整合业务节点、缩短流程；一年后调研 5 万+ 用户，CCR 年均从 7% 降至 3%，方法论已推广至质量部门其他项目；二期/三期 BI 分别承接约 17% / 42% 用户需求。获 Capgemini 2023 年度最佳交付团队奖。",
+      name: "BMW China Procurement Process Mining & Intelligent Optimization",
+      desc: "主导 Direct / Indirect Procurement 流程挖掘与智能优化，基于 Celonis 联合采购、IT、流程管理团队完成多轮 workshop，建立闭环优化机制。围绕合同流程识别跨 9 个业务单元的效率与合规问题，推动标准修订与治理。基于 16 万+ 流程数据将平均流程延迟由 26 个工作日缩短至 18 天，采购效率提升 30%+；识别约 9000 份潜在合规风险合同，并形成 AI 智能化方案，每年节省约 50 人天。",
       links: [
-        { label: "Company", url: "https://www.capgemini.com/" },
+        { label: "Company", url: "https://www.bmw-brilliance.cn/" },
       ],
-      tags: ["Power BI", "E-chart", "Self-Service BI", "Team Leadership"],
+      tags: ["Celonis", "Process Mining", "Process Governance", "AI Workflow", "Cross-functional Leadership"],
     },
     {
-      name: "Shimano 员工培训 E-Learning BI 平台",
-      desc: "持续与业务沟通挖掘需求并优化体验；负责 BI 平台整体设计开发、数据模型与可视化，交付 6 页报表，支撑培训与管理团队洞察学习行为与趋势，获客户表扬信。",
-      links: [{ label: "Company", url: "https://www.avepoint.com/" }],
-      tags: ["BI Platform", "Learning Analytics", "Dashboard Design"],
+      name: "BMW Brilliance CCR (Customer Complaint Rate) CN 质量分析平台",
+      desc: "搭建整车质量与用户反馈数据监控体系，使用 Power BI 与 E-chart 构建 90+ 图表与指标，并迭代关键业务监控指标。设计 Self-Service 报表平台提升业务自主分析能力，带领 BI 团队以敏捷方式交付。平台上线一年后，基于 5 万+ 用户调研，CCR 年平均值由 7% 下降至 3%；项目方法论已推广至质量部门其他项目，并获 Capgemini 2023 年度最佳交付团队奖。",
+      links: [{ label: "Company", url: "https://www.capgemini.com/" }],
+      tags: ["Power BI", "E-chart", "Self-Service BI", "Agile Delivery", "Team Leadership"],
     },
   ],
 
@@ -100,16 +100,19 @@ window.PROFILE = {
     "Microsoft 365",
     "SQL Server",
     "MySQL",
+    "Celonis",
     "Python",
     "R",
     "Jira",
     "Microsoft Project",
     "Project Management",
+    "Business Analysis",
     "Process Mining",
     "Dify",
     "n8n",
     "AI Workflow",
     "IELTS 6.5",
+    "Japanese (Beginner)",
     "Microsoft 数据分析师认证",
     "FCA-FineReport / FCA-FineBI",
     "凯捷 架构师一级 · Connected Manager",
