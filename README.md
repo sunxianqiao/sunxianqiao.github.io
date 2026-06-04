@@ -1,5 +1,9 @@
 ## LinkedIn-style personal homepage (static)
 
+### Repository
+- GitHub remote: `https://github.com/sunxianqiao/sunxianqiao.github.io.git`
+- Custom domain: `https://www.sunxianqiao.com`
+
 ### Preview
 - Quick open: double-click `index.html`
 - Recommended (local server):

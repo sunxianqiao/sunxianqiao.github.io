@@ -3,22 +3,23 @@
 
 window.PROFILE = {
   name: "孙显乔 (Joe)",
-  headline: "AI & Process Intelligence · BI Manager",
+  headline: "高级流程智能与 AI 应用专家 · BI 经理",
   location: "中国",
   openTo: "Open to: 流程智能负责人 / BI 管理岗 / AI 场景落地",
   email: "xianqiaosun@gmail.com",
   resumeUrl: "https://www.linkedin.com/in/joe-sun-3406371a3/",
 
   about:
-    "我专注于流程智能与 BI 管理，具备从流程挖掘、To-Be 设计、合规治理到 AI 场景落地的端到端实战经验。先后负责 BMW Brilliance 与多家国际客户项目，覆盖交付管理、跨部门协同、团队搭建与方法论沉淀，持续推动数据驱动决策与运营效率提升。",
+    "5+ 年 BI 与流程智能经验，专注从流程挖掘、To-Be 设计、合规治理到 AI 场景落地的端到端交付。现负责华晨宝马核心业务流程智能与 AI 应用，曾在凯捷从 0 到 1 组建 8 人 BI 团队、交付 BMW / Mercedes-Benz / Volkswagen / lululemon 等国际客户项目，持续推动数据驱动决策与运营效率提升。",
 
   highlights: [
-    "流程智能负责人：主导采购流程挖掘与优化，建立「识别‑分析‑整改‑验证」闭环并推进标准升级",
-    "AI 业务落地：将规则引擎、自动解析与 Dify / n8n Agent 融入流程场景，提升效率与风险识别能力",
-    "BI 管理与交付：从 0 到 1 组建 8 人团队，负责多家国际客户项目并获 Capgemini 2023 年度最佳交付团队奖",
+    "流程智能负责人：基于 Celonis 主导采购流程挖掘，建立「识别‑分析‑整改‑验证」闭环，效率提升 30%+",
+    "AI 业务落地：设计基于 Dify 的对话式采购 Agent，打通需求交互、合规判断、自动填单与规则内审批",
+    "BI 管理与交付：从 0 到 1 组建 8 人团队，交付多家国际客户项目并获 Capgemini 2023 年度最佳交付团队奖",
   ],
 
   quickLinks: [
+    { label: "Homepage", hint: "个人主页", icon: "🌐", url: "https://www.sunxianqiao.com/" },
     { label: "LinkedIn", hint: "职业档案", icon: "in", url: "https://www.linkedin.com/in/joe-sun-3406371a3/" },
     { label: "Email", hint: "商务联系", icon: "@", url: "mailto:xianqiaosun@gmail.com" },
     { label: "Phone", hint: "移动电话", icon: "PH", url: "tel:+8613555717510" },
@@ -26,48 +27,48 @@ window.PROFILE = {
 
   experiences: [
     {
-      role: "Advanced AI & Process Intelligence Specialist",
-      org: "BMW Brilliance Automotive",
+      role: "高级流程智能与 AI 应用专家",
+      org: "华晨宝马汽车有限公司",
       location: "中国",
       period: "2024.11 — 至今",
       bullets: [
-        "作为流程智能负责人，主导采购、销售等部门流程挖掘与优化；牵头跨部门完成流程建模、数据分析及 Use Case 定义，设计并落地 To-Be 流程与关键控制机制（审批/合规/RACI），建立「识别‑分析‑整改‑验证」闭环，提升运营效率、透明度与风险管控，并定期向管理层汇报成果与建议",
-        "将流程挖掘与 AI 结合，推动流程智能化工作流、基于意图识别的合规校验，以及结合 Dify、n8n 的业务 Agent 等场景落地，并与业务负责人联合完成有效性验证",
+        "跨部门流程分析与优化：作为流程智能项目负责人，主导核心业务流程挖掘与优化，完成流程建模、数据分析及 Use Case 定义，设计并落地 To-Be 流程及关键控制机制（审批/合规/RACI），并向管理层定期汇报成果与优化建议",
+        "基于 AI 的流程自动化落地：构建基于 AI 的流程自动化解决方案（流程智能化工作流、基于意图识别的合规校验系统、结合 Dify 与 n8n 的业务 Agent 等），并推动在实际业务中的验证与规模化应用",
       ],
-      tags: ["Process Mining", "Dify", "n8n", "AI Agent", "Process Governance"],
+      tags: ["Process Mining", "Celonis", "Dify", "n8n", "AI Agent", "Process Governance"],
     },
     {
-      role: "Business Intelligence Manager",
-      org: "Capgemini",
+      role: "BI 经理",
+      org: "凯捷咨询(中国)有限公司",
       location: "中国",
       period: "2022.09 — 2024.11",
       bullets: [
-        "作为 BI Lead / Project Manager 负责 BMW、Mercedes-Benz、Volkswagen、lululemon 等客户项目交付",
-        "从 0 到 1 组建并管理 8 人 BI 团队，沉淀标准交付能力体系并形成可复制方法论",
-        "支持售前与方案落地，输出 BI 平台实施方案与技术评估，提升项目可行性与交付确定性",
+        "跨国客户项目交付管理：作为 BI Lead / Project Manager 负责多个国际客户项目交付（BMW、Mercedes-Benz、Volkswagen、lululemon 等），统筹进度与质量确保按期上线",
+        "BI 团队从 0 到 1 搭建：组建并管理 8 人团队、建立标准化交付体系，形成可复制能力，成为沈阳区域 BI 交付核心力量",
+        "售前 BI 解决方案设计：负责 BI 领域解决方案售前设计与技术评估，支撑项目获取与顺利交付",
       ],
       tags: ["Program Management", "BI Delivery", "Team Building", "Pre-sales"],
     },
     {
-      role: "Senior Business Intelligence Developer",
-      org: "AvePoint",
+      role: "中级 BI 工程师",
+      org: "美国径点科技有限公司",
       location: "中国",
       period: "2021.06 — 2022.09",
       bullets: [
-        "负责全球 BI 报表平台建设与运维（Power BI），支持多区域多部门经营分析",
-        "面向外部客户独立完成需求澄清、原型设计、报表开发发布等端到端交付",
-        "构建收入分析与预测支持体系并优化 SSAS 数据模型，提升可扩展性与稳定性",
+        "全球业务 BI 报表开发：负责公司内 BI（Power BI）平台建设与运维，支撑多区域业务分析与决策",
+        "面向客户的 BI 咨询：独立完成需求到报表交付全流程，提升客户数据使用效率",
+        "业务数据分析与模型优化：输出经营分析与预测支持并定期向管理层汇报，优化数据模型提升稳定性与扩展性",
       ],
-      tags: ["Power BI", "SSAS", "Data Modeling", "Consulting Delivery"],
+      tags: ["Power BI", "Data Modeling", "BI Consulting", "Reporting"],
     },
     {
-      role: "Forensic Consultant",
-      org: "Ernst & Young",
+      role: "法证调查咨询师",
+      org: "安永商务咨询(大连)有限公司",
       location: "中国",
       period: "2021.04 — 2021.06",
       bullets: [
-        "通过多源数据接口获取企业数据，使用 SQL 清洗分析以支持合规/舞弊风险调查",
-        "参与风险合规调查报告撰写，与法务及合规团队协作输出可执行建议",
+        "基于数据分析的舞弊调查支持：通过 SQL 进行数据清洗与分析，支持企业舞弊与合规调查",
+        "企业风险与合规调查支持：撰写法证调查报告并输出风险结论，支持客户合规决策",
       ],
       tags: ["SQL", "Risk & Compliance", "Forensic Analytics"],
     },
@@ -75,47 +76,36 @@ window.PROFILE = {
 
   projects: [
     {
-      name: "BMW China Procurement Process Mining & Intelligent Optimization",
-      desc: "主导 Direct / Indirect Procurement 流程挖掘与智能优化，基于 Celonis 联合采购、IT、流程管理团队完成多轮 workshop，建立闭环优化机制。围绕合同流程识别跨 9 个业务单元的效率与合规问题，推动标准修订与治理。基于 16 万+ 流程数据将平均流程延迟由 26 个工作日缩短至 18 天，采购效率提升 30%+；识别约 9000 份潜在合规风险合同，并形成 AI 智能化方案，每年节省约 50 人天。",
+      name: "宝马集团中国区采购流程挖掘与智能运营项目",
+      desc: "背景：采购流程存在审批周期长、标准执行不一致及人工审核成本高等问题，项目通过流程挖掘与 AI 能力建设提升采购效率与合规治理能力。职责：流程智能负责人 & 项目经理。主导 Direct & Indirect Procurement 流程挖掘，基于 Celonis 开展端到端分析并组织多轮用户沟通，构建「识别‑分析‑整改‑验证」闭环；设计并推动基于 Dify 的对话式采购 Agent，定义需求交互、合规判断、自动填单及规则内审批逻辑，实现端到端自动化。成果：基于 16 万+ 流程数据将平均流程延迟由 26 个工作日缩短至 18 天、效率提升 30%+；识别约 9000 份潜在合规风险合同；间接采购小额订单 AI 方案每年节省约 50+ 人天；推动采购流程标准升级、提升 70+ 采购人员效率，方法论于 2026 年持续扩展。",
       links: [
         { label: "Company", url: "https://www.bmw-brilliance.cn/" },
       ],
-      tags: ["Celonis", "Process Mining", "Process Governance", "AI Workflow", "Cross-functional Leadership"],
+      tags: ["Celonis", "Process Mining", "Dify Agent", "Process Governance", "Automation"],
     },
     {
-      name: "BMW Brilliance CCR (Customer Complaint Rate) CN 质量分析平台",
-      desc: "搭建整车质量与用户反馈数据监控体系，使用 Power BI 与 E-chart 构建 90+ 图表与指标，并迭代关键业务监控指标。设计 Self-Service 报表平台提升业务自主分析能力，带领 BI 团队以敏捷方式交付。平台上线一年后，基于 5 万+ 用户调研，CCR 年平均值由 7% 下降至 3%；项目方法论已推广至质量部门其他项目，并获 Capgemini 2023 年度最佳交付团队奖。",
+      name: "华晨宝马中国区用户抱怨率与整车质量分析平台",
+      desc: "背景：质量部门缺少统一的数据分析与监控平台，数据分散、分析依赖人工，难以支撑质量问题快速定位与数据驱动决策。职责：BI 解决方案负责人。搭建整车质量与用户反馈监控体系，使用 Power BI 与 E-chart 构建 90+ 图表与指标并迭代关键监控指标；设计 Self-Service 报表平台提升业务自主分析能力，以敏捷方式带领 BI 团队交付。成果：建立质量部门首个线上综合分析平台、显著缩短业务分析流程；上线一年后覆盖 5 万+ 用户调研数据，CCR 年平均值由 7% 降低至 3%；Self-Service 模式推广至质量部门多个项目组，BI Team 二期/三期分别承接约 17%/42% 用户需求；项目团队荣获 Capgemini 2023 年度最佳交付团队奖。",
       links: [{ label: "Company", url: "https://www.capgemini.com/" }],
       tags: ["Power BI", "E-chart", "Self-Service BI", "Agile Delivery", "Team Leadership"],
     },
   ],
 
-  skills: [
-    "Power BI",
-    "Qlik",
-    "Tableau",
-    "FineReport/FineBI",
-    "Power Platform",
-    "Dynamics 365",
-    "Microsoft 365",
-    "SQL Server",
-    "MySQL",
-    "Celonis",
-    "Python",
-    "R",
-    "Jira",
-    "Microsoft Project",
-    "Project Management",
-    "Business Analysis",
-    "Process Mining",
-    "Dify",
-    "n8n",
-    "AI Workflow",
-    "IELTS 6.5",
-    "Japanese (Beginner)",
-    "Microsoft 数据分析师认证",
-    "FCA-FineReport / FCA-FineBI",
-    "凯捷 架构师一级 · Connected Manager",
+  skillGroups: [
+    { title: "BI 与数据分析", items: ["Power BI", "Tableau", "Qlik", "帆软 FineReport", "SQL Server", "MySQL", "Python"] },
+    { title: "流程挖掘与 RPA", items: ["Celonis", "SAP Signavio", "UiPath"] },
+    { title: "微软生态", items: ["Power Apps", "Power Automate", "Dynamics 365", "M365 Copilot Hub"] },
+    { title: "AI 工具", items: ["Dify", "n8n", "Cursor", "GitHub Copilot"] },
+    { title: "产品与项目管理", items: ["Axure", "Figma", "Sketch", "Jira", "MS Project"] },
+  ],
+
+  certifications: [
+    { name: "Microsoft PL-300 数据分析师认证", issuer: "Microsoft", icon: "PL" },
+  ],
+
+  languages: [
+    { name: "中文", level: "母语" },
+    { name: "英语", level: "工作语言 · IELTS 6.5" },
   ],
 
   education: [
@@ -140,7 +130,7 @@ window.PROFILE = {
   contact: [
     { label: "Email", value: "xianqiaosun@gmail.com", icon: "@", url: "mailto:xianqiaosun@gmail.com" },
     { label: "LinkedIn", value: "linkedin.com/in/joe-sun-3406371a3", icon: "in", url: "https://www.linkedin.com/in/joe-sun-3406371a3/" },
+    { label: "Homepage", value: "www.sunxianqiao.com", icon: "🌐", url: "https://www.sunxianqiao.com/" },
     { label: "Phone", value: "+86 135-5571-7510", icon: "PH", url: "tel:+8613555717510" },
   ],
 };
-

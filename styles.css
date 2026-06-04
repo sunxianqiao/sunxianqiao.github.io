@@ -246,6 +246,8 @@ a{color:inherit}
 .pcard__desc{color:#2c313a;font-size:13.5px;margin:0}
 .pcard__links{display:flex;gap:10px;flex-wrap:wrap}
 
+.skillgroups{display:flex;flex-direction:column;gap:14px}
+.skillgroup__title{font-size:12.5px;font-weight:800;color:var(--muted);margin-bottom:8px;text-transform:none;letter-spacing:.2px}
 .chips{display:flex;flex-wrap:wrap;gap:10px}
 .chip{
   border:1px solid rgba(0,98,65,.2);
@@ -260,6 +262,29 @@ a{color:inherit}
 
 .bullets{margin:0;padding-left:18px;color:#2c313a}
 .bullets li{margin:8px 0}
+
+.certlist{display:flex;flex-direction:column;gap:10px}
+.cert{
+  display:flex;gap:12px;align-items:center;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:linear-gradient(180deg, rgba(0,98,65,.04), transparent 70%);
+}
+.cert__badge{
+  width:36px;height:36px;border-radius:10px;
+  background:var(--chip);
+  display:grid;place-items:center;
+  color:var(--brand2);font-weight:900;
+  flex:0 0 auto;
+}
+.cert__name{font-weight:800;font-size:13.5px}
+.cert__issuer{font-size:12.5px;color:var(--muted);margin-top:2px}
+
+.langlist{display:flex;flex-direction:column;gap:10px}
+.lang{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.lang__name{font-weight:800;font-size:13.5px}
+.lang__level{font-size:12.5px;color:var(--muted)}
 
 .contact{display:flex;flex-direction:column;gap:10px}
 .contact__item{

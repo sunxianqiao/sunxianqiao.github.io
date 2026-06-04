@@ -47,10 +47,11 @@ function render() {
   if (!p.resumeUrl) resumeCta.style.opacity = "0.55";
 
   // Stats
+  const skillItems = flattenSkills(p);
   const expYears = estimateYears(p.experiences || []);
   $("expYears").textContent = expYears ? `${expYears}+ 年` : "—";
   $("projCount").textContent = `${(p.projects || []).length}`;
-  $("skillCount").textContent = `${(p.skills || []).length}`;
+  $("skillCount").textContent = `${skillItems.length}`;
 
   // Highlights
   $("highlightList").innerHTML = (p.highlights || [])
@@ -87,10 +88,48 @@ function render() {
   // Projects
   $("projectList").innerHTML = (p.projects || []).map(renderProjectCard).join("");
 
-  // Skills
-  const skills = p.skills || [];
-  $("skillChips").innerHTML = skills
-    .map((s) => `<span class="chip" data-skill="${escapeHtml(s.toLowerCase())}">${escapeHtml(s)}</span>`)
+  // Skills (grouped by category)
+  $("skillGroups").innerHTML = (p.skillGroups || [])
+    .map(
+      (g) => `
+        <div class="skillgroup">
+          <div class="skillgroup__title">${escapeHtml(g.title || "")}</div>
+          <div class="chips">${(g.items || [])
+            .map((s) => `<span class="chip" data-skill="${escapeHtml(String(s).toLowerCase())}">${escapeHtml(s)}</span>`)
+            .join("")}</div>
+        </div>
+      `
+    )
+    .join("");
+
+  // Certifications
+  $("certList").innerHTML = (p.certifications || [])
+    .map((c) => {
+      const name = escapeHtml(c.name || "");
+      const issuer = escapeHtml(c.issuer || "");
+      const icon = escapeHtml(c.icon || "✓");
+      return `
+        <div class="cert">
+          <div class="cert__badge" aria-hidden="true">${icon}</div>
+          <div>
+            <div class="cert__name">${name}</div>
+            ${issuer ? `<div class="cert__issuer">${issuer}</div>` : ""}
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+
+  // Languages
+  $("langList").innerHTML = (p.languages || [])
+    .map(
+      (l) => `
+        <div class="lang">
+          <span class="lang__name">${escapeHtml(l.name || "")}</span>
+          <span class="lang__level">${escapeHtml(l.level || "")}</span>
+        </div>
+      `
+    )
     .join("");
 
   // Education
@@ -185,6 +224,13 @@ function renderProjectCard(x) {
   `;
 }
 
+function flattenSkills(p) {
+  const groups = p.skillGroups || [];
+  const out = [];
+  for (const g of groups) for (const s of g.items || []) out.push(s);
+  return out;
+}
+
 function estimateYears(exps) {
   // Best-effort. If user doesn't provide a number, infer from earliest year in period strings.
   const years = [];
@@ -214,6 +260,13 @@ function filterSkills(q) {
   for (const chip of chips) {
     const k = chip.getAttribute("data-skill") || "";
     chip.hidden = q.length ? !k.includes(q) : false;
+  }
+  // Hide a skill group when all of its chips are filtered out.
+  const groups = Array.from(document.querySelectorAll(".skillgroup"));
+  for (const g of groups) {
+    const groupChips = Array.from(g.querySelectorAll(".chip[data-skill]"));
+    const anyVisible = groupChips.some((c) => !c.hidden);
+    g.style.display = anyVisible ? "" : "none";
   }
 }
 
